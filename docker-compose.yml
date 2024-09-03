@@ -12,7 +12,7 @@ services:
       SPRING_APPLICATION_NAME: CoupleShare-Backend
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/CoupleShare?useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: 9764
+      SPRING_DATASOURCE_PASSWORD: 0902183qkqh@
       SPRING_DATA_REDIS_HOST: redis
       SPRING_DATA_REDIS_PORT: 6379
     depends_on:
@@ -22,7 +22,7 @@ services:
   db:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: 9764
+      MYSQL_ROOT_PASSWORD: 0902183qkqh@
       MYSQL_DATABASE: CoupleShare
     ports:
       - "3306:3306"
