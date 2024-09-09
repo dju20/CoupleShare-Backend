@@ -2,7 +2,7 @@
 FROM openjdk:17-jdk-slim
 
 # JAR 파일을 컨테이너의 /app 디렉토리에 복사
-COPY build/libs/CoupleShare-Backend-0.0.1-SNAPSHOT.jar /app/CoupleShare-Backend.jar
+COPY build/libs/*.jar /app/CoupleShare-Backend.jar
 
 
 # 컨테이너의 8080 포트를 열어줍니다.
