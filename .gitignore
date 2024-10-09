@@ -8,6 +8,8 @@ build/
 # Ignore application.properties
 application.properties
 
+docker-compose.yml
+
 ### STS ###
 .apt_generated
 .classpath
